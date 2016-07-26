@@ -1,0 +1,24 @@
+{
+  "name": "xcel",
+  "version": "1.0.0",
+  "description": "A xceled ngine for minigames.",
+  "main": "Xcel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloWorld017/Xcel.git"
+  },
+  "keywords": [
+    "Nukkit",
+    "Minigame",
+    "Nashorn"
+  ],
+  "author": "HelloWorld017 <deu07115@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HelloWorld017/Xcel/issues"
+  },
+  "homepage": "https://github.com/HelloWorld017/Xcel#readme"
+}

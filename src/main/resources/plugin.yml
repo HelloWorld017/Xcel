@@ -1,0 +1,34 @@
+#	\-\     /-/  .          .              . |--|
+#	 \ \   / /   .   /----| .    /----- \  . |  |
+#	  \ \ / /    .  /  ---| .   / /====\ \ . |  |
+#	   \   /     . /  /     .  | |-------/ . |  |
+#	   /   \     . \  \     .  | |         . |  |
+#	  / / \ \    .  \  ---| .   \ \-----|  . |  |
+#	 / /   \ \   .   \----| .    \------|  . |  |
+#	/-/     \-\  .          .              . |--|
+#	          Welcome to Xceled Ngine
+#                   by Khinenw
+#        "Convenient, Stable, yet Extendable"
+#            "This project applies GPLv3"
+
+name: "Xcel"
+author: Khinenw
+version: "erita [1.0]"
+description: "Xceled Ngine for minigames"
+main: org.khinenw.xcel.Xcel
+api: [1.0.0]
+
+permissions:
+  xcel:
+    description: "The permission for using xceled features."
+    default: op
+    children:
+      xcel.sgw:
+        description: "The permission for setting a game level."
+        default: op
+
+commands:
+  sgw:
+    description: "Sets a game world."
+    usage: "/sgw [Game Name] [World Folder Name]"
+    permission: xcel.sgw
